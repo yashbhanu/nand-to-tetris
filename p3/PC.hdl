@@ -9,6 +9,7 @@
  * else if inc(t):   out(t+1) = out(t) + 1
  * else              out(t+1) = out(t)
  */
+ 
 CHIP PC {
     IN in[16],inc, load, reset;
     OUT out[16];

@@ -8,6 +8,7 @@
  * address is set to in; Otherwise, the value does not change.
  * The value of the selected register is emitted by out.
  */
+ 
 CHIP RAM512 {
     IN in[16], load, address[9];
     OUT out[16];
